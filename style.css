@@ -1,0 +1,525 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* cambios por David*/
+
+#titulo1 {
+    height:100vh;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
+/* Header*/
+
+.navbar .logo{
+    width: 2.3em;
+    padding-top: 0.3em;
+}
+
+body{
+    font-family: 'Catamaran', sans-serif;
+    line-height: 2;
+    color: #FFFCF9;
+    font-size: 1.1rem;
+    background-color: #050505;
+}
+
+
+
+a{
+    color: #FFFCF9;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 0.9rem;
+}
+
+.navbar{
+    font-size: 1.3rem;
+    background-color: rgb(26, 25, 25, 0.8);
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+.navbar .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0.3rem 4rem;
+}
+
+.navbar .nav{
+    justify-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .nav a{
+    padding: 0 1.3rem;
+}
+
+.navbar .nav a:hover{
+    color: #660000;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+    right: 0;
+    z-index: 500;
+}
+
+/* body */
+
+
+
+.imagentitulo {
+    width: 23em;
+    filter: brightness(0.6)
+}
+
+h1{
+    font-family: 'Federo', sans-serif;
+    font-size: 5em;
+}
+
+/* por david */
+
+.section-a{
+    display:table;
+    height:100%;
+    width:100%;
+}
+
+.section-a h3{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  margin-top: -1em;
+}
+
+.section-a .titulo{
+    display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.firsttittle{
+    letter-spacing: 7px;
+    margin-bottom: -0.6em;
+    animation: text 3s 1;
+}
+
+.subtittle{
+    word-spacing: 9px;
+    margin-bottom: 0.3em;
+    animation: text1 2s 1;
+}
+
+.section-a{
+    padding: 4rem 0;
+}
+
+/* Gallery */
+
+.section-b{
+    background-image: url(https://live.staticflickr.com/65535/49958046832_1388ae60f2_o.png);
+    display:table;
+    height:100%;
+    width:100%;
+}
+
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.gallery img{
+    transform: scale(1.0);
+    transition: transform 0.4s ease;
+}
+
+.big {
+    box-sizing: content-box;
+    width: 250px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    margin: 1em 1em;
+  }
+
+  .big:hover img { 
+    transform: scale(1.1);
+  }
+  
+  .big:hover {
+    cursor: pointer;
+  }
+
+
+/* Fin galeria*/
+
+#boton2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+  }
+
+
+.botongallery{
+    background: #470000;
+    color: #fffcf9;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    margin: 1em 0;
+    padding: 0.15em 4em;
+    border-radius: 0.3em;
+    font-size: 1.2em;
+    font-family: 'Federo', sans-serif;
+    }
+
+.botongallery:hover {
+    background: #660000;
+}
+
+.botongallery:active {
+    background: #660000;
+}
+
+
+ /* About me */
+
+ .section-c{
+     display:table;
+     height:100%;
+     width:100%;
+ }
+
+ .section-c .container{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-gap: 2.5em;
+     align-items: center;
+     justify-content: center;
+     text-align: justify;
+     padding-left: 4em;
+     padding-right: 4em;
+     padding-bottom: 1rem;
+     padding-top: 2em;
+ }
+ 
+ .section-c .container2 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 3em 16em;
+    text-align: justify;
+}
+
+ .section-c h1{
+     font-size: 3rem;
+     color: #fffcf9;
+     margin-bottom: 1rem;
+     margin-top: 3em;
+ }
+
+ .section-c .container .imageabout{
+    width: 310px;
+    justify-self: right;
+    
+}
+
+ .section-c p{
+     margin: 0.5em 0;
+     font-family: 'Nunito', sans-serif !important;
+     font-size: small;
+ }
+
+
+
+.botonabout {
+    display: grid;
+    align-items: center;
+     justify-content: center;
+     margin-bottom: 3em;
+    
+}
+
+.imagenabout2 {
+     width: 23em;
+     filter: brightness(0.3);  
+     margin-bottom: 3em;
+}
+
+.section-c .container2 #left1{
+    justify-self: right;
+    font-size: larger;
+    font-family: 'Dancing Script', cursive !important;
+
+}
+
+
+
+ /* Book */
+
+ .section-d{
+    background-color: #1A1919;
+    display:table;
+    height:100%;
+    width:100%;
+}
+
+.section-d h1 {
+    font-size: 2.3rem;
+     color: #fffcf9;
+     display: block;
+     text-align: center;
+     margin-bottom: 0;
+     margin-top: 6rem;
+}
+
+.section-d .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2em;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6rem;
+    margin-top: 1.5rem;
+    padding-right: 4em;
+    padding-left: 4em;
+}
+
+.section-d .container hr{
+    margin-bottom: 1em;
+}
+
+.section-d .container p{
+    margin: 0 0;
+    font-size: small;
+    font-family: 'Nunito', sans-serif !important;
+    text-align: justify;
+    justify-self: left;
+}
+
+.section-d .container .imagebook{
+    width: 300px;
+    justify-self: left;
+}
+
+.section-d .container .libroimage{
+    margin: 0 0;
+}
+
+.section-d .container .libroimage .black{
+    color: #880404;
+}
+
+.section-d .container #question{
+    font-size: larger;
+    font-family: 'Federo', sans-serif !important;
+}
+
+.boton3 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.buton{background: #470000;
+    color: #fffcf9;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0.2em 6em;
+    border-radius: 0.3em;
+    font-size: 1em;
+    font-family: 'Federo', sans-serif;
+    }
+
+.buton:hover {
+    background: #660000;
+}
+
+.buton:active {
+    background: #660000;
+}
+
+.section-d h2 {
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 0.1rem;
+    font-size: 2.3rem;
+}
+
+
+
+/* Footer */
+
+.section-footer {
+    background-color: #050505;
+    color: #fffcf9;
+    padding: 1em 0;
+}
+
+.section-footer .container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive !important;
+}
+
+.section-footer h4{
+    width: 3rem;
+}
+ 
+.container .icons img{
+    width: 1.5em;
+    margin-left: 0.5em;
+    filter: brightness(0.5)
+    
+}
+
+
+
+/*  Animation */
+@keyframes text{
+    0% {
+    color: black;
+    margin-botton: -4em;
+    }
+}
+
+@keyframes text1{
+    0% {
+    letter-spacing: 10px;
+    margin-botton: -4em;
+    }
+    }
+
+    #more {display: none;}
+
+
+/* Media Queries */
+
+
+@media(max-width: 700px){
+
+    .section-c .container{
+		grid-template-columns: 1fr;
+        text-align: justify;
+        padding-left: 2em;
+         padding-right: 2em;
+    }
+        
+	.section-d .container{
+		grid-template-columns: 1fr;
+		text-align: center;
+    }
+
+    .section-c .container div:first-child{
+    order:2;
+    }
+    
+    .section-c .container div:last-child{
+    order:-1;
+    }
+
+    
+
+    .section-c .container2{
+        padding-right: 2em ;
+        padding-left: 2em;
+    }
+
+    .section-a .firsttittle{
+        font-size: 3em;
+    }
+
+    .section-a .imagentitulo{
+        width: 19em;
+    }
+
+    .navbar .container{
+        
+        padding: 0.5em 0.5em;
+    }
+
+    .navbar .logo{
+        width: 1.9em;
+    }
+
+    .navbar{
+        font-size: 1rem;
+    }
+
+    .navbar .nav a{
+        padding: 0 1rem;
+    }
+
+    .section-c .imagenabout2{
+        width: 19em;
+    }
+
+    .section-c .container .imageabout{
+        width: 200px;
+        justify-self: center;
+    }
+
+     .section-d .libroimage p{
+         text-align: center;
+        justify-self: center;
+     }
+
+     .section-d .container{
+         margin-left: 0;
+         margin-right: 0;
+         padding-left: 2em;
+         padding-right: 2em;
+     }
+     .section-d .container .libroimage .imagebook{
+        width: 250px;
+        justify-self: center;
+     }
+
+     .section-d h1 {
+         font-size: 1.5em;
+         text-align: center;
+         padding-left: 1em;
+         padding-right: 1em;
+     }
+
+     .section-d .container .buton{
+         margin: 0;
+         padding: 0.3em 1.5em;
+     }
+
+     .section-d .container .synopsis{
+         margin:0;
+         padding-left: 0.6em;
+         padding-right: 0.6em;
+     }
+}
+
